@@ -5,7 +5,7 @@ app = Flask(__name__)
 books = [
     {"id": 1, "title": "1984", "author": "George Orwell"},
     {"id": 2, "title": "To Kill a Mockingbird", "author": "Harper Lee"},
-    {"id": 3, "title": "Heaven Official's", "author": "Mo Xiang Tong Xiu"}
+    {"id": 3, "title": "Heaven Official's Blessing", "author": "Mo Xiang Tong Xiu"}
 ]
 
 @app.route('/books', methods=['GET'])
